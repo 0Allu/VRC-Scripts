@@ -9,7 +9,6 @@ namespace FogControl
 {
     public class FogControl : UdonSharpBehaviour
     {
-        public GameObject Collider;
         public float smooth = 2;
         private float NewFogEndDistance = 22f;
         public override void OnPlayerTriggerStay(VRCPlayerApi player)
