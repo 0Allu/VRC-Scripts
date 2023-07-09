@@ -3,7 +3,7 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-public class SimpleObjectToggle : UdonSharpBehaviour
+public class SimpleInteractToggle : UdonSharpBehaviour
 {
     public GameObject YourObject; // VRC SDK doesn't need [SerializeField]
     
